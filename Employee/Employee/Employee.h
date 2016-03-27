@@ -13,7 +13,7 @@ public:
 	Employee(string, int);
 	string name();
 	int staffNumber();
-	float salary();
+	virtual float salary() const = 0;
 	~Employee();
 
 private:
