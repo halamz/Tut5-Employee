@@ -27,7 +27,7 @@
     <ClCompile Include="HourlyEmployee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CommissionEmloyee.cpp">
+    <ClCompile Include="CommissionEmployee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,7 +41,7 @@
     <ClInclude Include="HourlyEmployee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CommissionEmloyee.h">
+    <ClInclude Include="CommissionEmployee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
