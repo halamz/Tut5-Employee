@@ -14,7 +14,7 @@ public:
 	string name() const;
 	int staffNumber() const;
 	virtual float salary() const = 0;
-	~Employee();
+	virtual ~Employee();
 
 private:
 	const string Name;

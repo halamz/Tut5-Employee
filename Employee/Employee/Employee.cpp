@@ -18,10 +18,3 @@ int Employee::staffNumber() const
 {
 	return StaffNumber;
 }
-
-
-Employee::~Employee()
-{
-	//reduce number of employees when object destroyed
-	--numberOfEmployees;
-}

@@ -1,8 +1,19 @@
-#pragma once
-class HourlyEmployee
+#ifndef HOURLY_H
+#define HOURLY_H
+#include "Employee.h"
+
+class HourlyEmployee:public Employee
 {
 public:
-	HourlyEmployee();
+	HourlyEmployee(string, int, int, float);
+	void setHourlyRate(float);
+	void setHoursWorked(int);
+	virtual float salary() const;
 	~HourlyEmployee();
+
+private:
+	float HourlyRate;
+	int HoursWorked;
 };
 
+#endif //!HOURLY

@@ -5,6 +5,7 @@ SalaryEmployee::SalaryEmployee(string name, int SN, float salary):
 Employee(name, SN)//calling Employee constructure
 {
 	setSalary(salary);
+	
 }
 
 //setting salary
