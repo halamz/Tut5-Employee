@@ -4,10 +4,12 @@
 
 class HourlyEmployee:public Employee
 {
+	
 public:
 	HourlyEmployee(string, int, int, float);
 	void setHourlyRate(float);
 	void setHoursWorked(int);
+	virtual int NoOfEmployee() const;
 	virtual float salary() const;
 	~HourlyEmployee();
 

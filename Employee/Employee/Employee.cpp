@@ -14,6 +14,12 @@ string Employee::name() const
 	return Name;
 }
 
+//returns number of employees
+int Employee::NoOfEmployee() const
+{
+	return numberOfEmployees;
+}
+
 int Employee::staffNumber() const
 {
 	return StaffNumber;

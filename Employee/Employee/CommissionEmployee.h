@@ -10,6 +10,7 @@ public:
 	void setRate(float);
 	void setRevenue(float);
 	virtual float salary() const;
+	virtual int NoOfEmployee() const;
 	~CommissionEmployee();
 
 private:

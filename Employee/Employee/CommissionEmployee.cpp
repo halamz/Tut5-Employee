@@ -14,10 +14,10 @@ void CommissionEmployee::setBaseSalary(float salary)
 
 void CommissionEmployee::setRate(float rate)
 {
-	if (rate >= 0)
+	if (rate >= 0 && rate <= 1)
 		Rate = rate;
 	else
-		cout << "rate cannot be negative" << endl;
+		cout << "invalid rate" << endl;
 
 }
 
@@ -31,8 +31,9 @@ void CommissionEmployee::setRevenue(float revenue)
 
 float CommissionEmployee::salary() const
 {
-	return SalaryEmployee::salary();
+	return (SalaryEmployee::salary()) + Revenue * Rate;
 }
+
 CommissionEmployee::~CommissionEmployee()
 {
 }

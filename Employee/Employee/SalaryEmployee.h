@@ -9,6 +9,7 @@ public:
 	SalaryEmployee(string, int, float);
 	void setSalary(float);
 	virtual float salary() const;
+	virtual int NoOfEmployee() const;
 	~SalaryEmployee();
 
 private:
