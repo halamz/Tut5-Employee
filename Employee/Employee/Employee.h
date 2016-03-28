@@ -11,15 +11,14 @@ class Employee
 {
 public:
 	Employee(string, int);
-	string name();
-	int staffNumber();
+	string name() const;
+	int staffNumber() const;
 	virtual float salary() const = 0;
 	~Employee();
 
 private:
 	const string Name;
 	const int StaffNumber;
-	float Salary;
 	int numberOfEmployees = 0;
 
 };

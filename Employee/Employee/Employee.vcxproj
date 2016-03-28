@@ -76,11 +76,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CommissionEmloyee.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="HourlyEmployee.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SalaryEmployee.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CommissionEmloyee.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="HourlyEmployee.h" />
+    <ClInclude Include="SalaryEmployee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

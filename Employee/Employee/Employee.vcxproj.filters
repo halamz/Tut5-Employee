@@ -21,9 +21,27 @@
     <ClCompile Include="Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SalaryEmployee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HourlyEmployee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommissionEmloyee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SalaryEmployee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HourlyEmployee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommissionEmloyee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

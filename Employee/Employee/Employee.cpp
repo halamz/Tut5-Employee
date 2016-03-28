@@ -5,15 +5,16 @@ Employee::Employee(string name, int SN):
 Name(name), 
 StaffNumber(SN)
 {
-
+	//increment number of employees when object created
+	++numberOfEmployees;
 }
 
-string Employee::name()
+string Employee::name() const
 {
 	return Name;
 }
 
-int Employee::staffNumber()
+int Employee::staffNumber() const
 {
 	return StaffNumber;
 }
@@ -21,4 +22,6 @@ int Employee::staffNumber()
 
 Employee::~Employee()
 {
+	//reduce number of employees when object destroyed
+	--numberOfEmployees;
 }
